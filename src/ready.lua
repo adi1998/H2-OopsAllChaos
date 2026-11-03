@@ -23,8 +23,5 @@ end
 
 modutil.mod.Path.Wrap("SetTransformingTraitsOnLoot", function (base, lootData, upgradeChoiceData)
     game.RandomSynchronize(math.random(1,9))
-    print(debug.traceback("SetTransformingTraitsOnLoot"))
-    print("before", mod.dump(lootData.UpgradeOptions))
     base(lootData, upgradeChoiceData)
-    print("after", mod.dump(lootData.UpgradeOptions))
 end)
