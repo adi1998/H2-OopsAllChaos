@@ -5,7 +5,7 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "zerp"
 name = "Oops_all_Chaos"
-versionNumber = "0.0.1"
+versionNumber = "1.0.0"
 description = "Turns every major reward into Chaos. Shops are unaffected."
 websiteUrl = "https://github.com/adi1998/H2-OopsAllChaos"
 containsNsfwContent = false
